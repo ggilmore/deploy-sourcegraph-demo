@@ -40,7 +40,7 @@ spec:
           name: rpc
         resources:
           limits:
-            cpu: "4"
+            cpu: "8"
             memory: 8G
           requests:
             cpu: "4" 
@@ -71,7 +71,7 @@ spec:
           protocol: UDP
         resources:
           limits:
-            cpu: "4"
+            cpu: "1"
             memory: 500M
           requests:
             cpu: 100m
