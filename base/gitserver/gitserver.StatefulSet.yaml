@@ -71,7 +71,7 @@ spec:
           protocol: UDP
         resources:
           limits:
-            cpu: "1"
+            cpu: "4"
             memory: 500M
           requests:
             cpu: 100m
@@ -101,5 +101,5 @@ spec:
         requests:
           # The size of disk used to mirror your git repositories.
           # If you change this, also change indexed-search's disk size.
-          storage: 200Gi
+          storage: 400Gi
       storageClassName: sourcegraph
